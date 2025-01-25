@@ -1,16 +1,33 @@
-# classico
+# To-Do App
 
-A new Flutter project.
+A simple To-Do app built with Flutter.
 
-## Getting Started
+## Features
+- Add tasks
+- Mark tasks as complete
+- Delete tasks
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate into the project directory:
+   ```bash
+   cd todo-app
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
