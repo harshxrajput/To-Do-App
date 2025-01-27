@@ -88,7 +88,7 @@ class _MainScreenState extends State<MainScreen> {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.grey, Colors.grey],
+              colors: [Color(0xfaf9f6), Color(0xfaf9f6)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -100,14 +100,14 @@ class _MainScreenState extends State<MainScreen> {
           style: GoogleFonts.roboto(
             fontSize: 24,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.grey, Colors.grey],
+            colors: [Color(0xfaf9f6), Color(0xfaf9f6)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
