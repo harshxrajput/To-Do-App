@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
 
@@ -96,7 +97,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
         centerTitle: true,
         title: Text(
-          'TO-DO APP',
+          'TO-DO',
           style: GoogleFonts.roboto(
             fontSize: 24,
             fontWeight: FontWeight.bold,
@@ -117,14 +118,14 @@ class _MainScreenState extends State<MainScreen> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Icon(Icons.list_alt, size: 60, color: Colors.white70),
+              const Icon(Icons.list_alt, size: 60, color: Colors.black54),
               const SizedBox(height: 10),
               Text(
                 "Your to-do list is empty!",
                 style: GoogleFonts.roboto(
                   fontSize: 18,
                   fontWeight: FontWeight.w500,
-                  color: Colors.white70,
+                  color: Colors.black54,
                 ),
               ),
             ],
